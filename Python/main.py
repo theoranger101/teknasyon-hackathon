@@ -71,7 +71,7 @@ def generate_image():
         #print(f"Processed prompt: {prompt}")
 
         client = OpenAI(
-            api_key="sk-proj-5EA0tS5or0V474LedUpUT3BlbkFJosemqesyhvd3wEj4EaNw",
+            api_key= #yourapikey,
         )
 
         response = client.images.generate(
