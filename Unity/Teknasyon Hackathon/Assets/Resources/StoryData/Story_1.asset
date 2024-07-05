@@ -1,0 +1,126 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f3c3e24472c24c2aaabcaed67a0621f0, type: 3}
+  m_Name: Story_1
+  m_EditorClassIdentifier: 
+  Prompt: fable, animals, forest, wide angle, cartoonish,
+  Sentences:
+  - Prompt: mother and three children, poor
+    Text: Once upon a time there was an old mother _ who had three little {0}s and
+      not enough food to feed them. So when they were old enough, she sent them out
+      into the world to seek their fortunes.
+    Parts:
+    - 'Once upon a time there was an old mother '
+    - ' who had three little {0}s and not enough food to feed them. So when they
+      were old enough, she sent them out into the world to seek their fortunes.'
+    BlankSpaces:
+    - Type: 2
+      Options:
+      - pig
+      - bald eagle
+      - shark
+      PremadeSprites:
+      - {fileID: 21300000, guid: 4088a9dc586deb84891f11eee0ce8892, type: 3}
+  - Prompt: lazy, builder
+    Text: 'The first little {0} was very lazy. He didn''t want to work at all and
+      he built his house out of _. '
+    Parts:
+    - 'The first little {0} was very lazy. He didn''t want to work at all and he
+      built his house out of '
+    - '. '
+    BlankSpaces:
+    - Type: 2
+      Options:
+      - paper
+      - bunch of cans
+      - straw
+      PremadeSprites: []
+  - Prompt: lazy, builder
+    Text: 'The second little {0} worked a little bit harder but he was somewhat lazy
+      too and he built his house out of _. '
+    Parts:
+    - 'The second little {0} worked a little bit harder but he was somewhat lazy
+      too and he built his house out of '
+    - '. '
+    BlankSpaces:
+    - Type: 2
+      Options:
+      - glass
+      - wood
+      - plastic
+      PremadeSprites: []
+  - Prompt: children dancing together
+    Text: Then, they sang and danced and played together the rest of the day.
+    Parts:
+    - Then, they sang and danced and played together the rest of the day.
+    BlankSpaces: []
+  - Prompt: 
+    Text: 'The third little {0} worked hard all day and built his house with _. '
+    Parts:
+    - 'The third little {0} worked hard all day and built his house with '
+    - '. '
+    BlankSpaces:
+    - Type: 2
+      Options:
+      - stones
+      - gold
+      - obsidian
+      PremadeSprites: []
+  - Prompt: 
+    Text: It was a sturdy house complete with a fine fireplace and chimney. It looked
+      like it could withstand the strongest winds. The next day, a wolf happened
+      to pass by the lane where the three little {0}s lived;
+    Parts:
+    - It was a sturdy house complete with a fine fireplace and chimney. It looked
+      like it could withstand the strongest winds. The next day, a wolf happened
+      to pass by the lane where the three little {0}s lived;
+    BlankSpaces: []
+  - Prompt: 
+    Text: and he saw the straw house, and he smelled the {0} inside. He thought the
+      {0} would make a mighty fine meal and his mouth began to water.
+    Parts:
+    - and he saw the straw house, and he smelled the {0} inside. He thought the {0}
+      would make a mighty fine meal and his mouth began to water.
+    BlankSpaces: []
+  - Prompt: 
+    Text: 'So he knocked on the door and said:   Little {0}! Little {0}!   Let me
+      in! Let me in!'
+    Parts:
+    - 'So he knocked on the door and said:   Little {0}! Little {0}!   Let me in!
+      Let me in!'
+    BlankSpaces: []
+  TotalBlankSpaces:
+  - Type: 2
+    Options:
+    - pig
+    - bald eagle
+    - shark
+    PremadeSprites:
+    - {fileID: 21300000, guid: 4088a9dc586deb84891f11eee0ce8892, type: 3}
+  - Type: 2
+    Options:
+    - paper
+    - bunch of cans
+    - straw
+    PremadeSprites: []
+  - Type: 2
+    Options:
+    - glass
+    - wood
+    - plastic
+    PremadeSprites: []
+  - Type: 2
+    Options:
+    - stones
+    - gold
+    - obsidian
+    PremadeSprites: []

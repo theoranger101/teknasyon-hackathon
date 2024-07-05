@@ -1,0 +1,157 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f3c3e24472c24c2aaabcaed67a0621f0, type: 3}
+  m_Name: Story_1 1
+  m_EditorClassIdentifier: 
+  Prompt: medival, fable, no-text, storytelling, landscape, realistic animals,
+  Sentences:
+  - Text: Once upon a time there was an old mother _ who had three little -s and
+      not enough food to feed them. So when they were old enough, she sent them out
+      into the world to seek their fortunes.
+    Parts:
+    - 'Once upon a time there was an old mother '
+    - ' who had three little -s and not enough food to feed them. So when they were
+      old enough, she sent them out into the world to seek their fortunes.'
+    BlankSpaces:
+    - Type: 2
+      Options:
+      - pig
+      - bald eagle
+      - shark
+      PremadeSprites: []
+  - Text: 'The first little - was very lazy. He didn''t want to work at all and he
+      built his house out of _. '
+    Parts:
+    - 'The first little - was very lazy. He didn''t want to work at all and he built
+      his house out of '
+    - '. '
+    BlankSpaces:
+    - Type: 2
+      Options:
+      - pig
+      - bald eagle
+      - shark
+      PremadeSprites: []
+    - Type: 2
+      Options:
+      - pig
+      - bald eagle
+      - shark
+      PremadeSprites: []
+  - Text: 'The second little - worked a little bit harder but he was somewhat lazy
+      too and he built his house out of _. '
+    Parts:
+    - 'The second little - worked a little bit harder but he was somewhat lazy too
+      and he built his house out of '
+    - '. '
+    BlankSpaces:
+    - Type: 2
+      Options:
+      - pig
+      - bald eagle
+      - shark
+      PremadeSprites: []
+    - Type: 2
+      Options:
+      - pig
+      - bald eagle
+      - shark
+      PremadeSprites: []
+  - Text: Then, they sang and danced and played together the rest of the day.
+    Parts:
+    - Then, they sang and danced and played together the rest of the day.
+    BlankSpaces:
+    - Type: 2
+      Options:
+      - pig
+      - bald eagle
+      - shark
+      PremadeSprites: []
+    - Type: 2
+      Options:
+      - pig
+      - bald eagle
+      - shark
+      PremadeSprites: []
+  - Text: 'The third little - worked hard all day and built his house with _. '
+    Parts:
+    - 'The third little - worked hard all day and built his house with '
+    - '. '
+    BlankSpaces:
+    - Type: 2
+      Options:
+      - pig
+      - bald eagle
+      - shark
+      PremadeSprites: []
+    - Type: 2
+      Options:
+      - pig
+      - bald eagle
+      - shark
+      PremadeSprites: []
+  - Text: It was a sturdy house complete with a fine fireplace and chimney. It looked
+      like it could withstand the strongest winds. The next day, a wolf happened
+      to pass by the lane where the three little -s lived;
+    Parts:
+    - It was a sturdy house complete with a fine fireplace and chimney. It looked
+      like it could withstand the strongest winds. The next day, a wolf happened
+      to pass by the lane where the three little -s lived;
+    BlankSpaces:
+    - Type: 2
+      Options:
+      - pig
+      - bald eagle
+      - shark
+      PremadeSprites: []
+    - Type: 2
+      Options:
+      - pig
+      - bald eagle
+      - shark
+      PremadeSprites: []
+  - Text: and he saw the straw house, and he smelled the - inside. He thought the
+      - would make a mighty fine meal and his mouth began to water.
+    Parts:
+    - and he saw the straw house, and he smelled the - inside. He thought the - would
+      make a mighty fine meal and his mouth began to water.
+    BlankSpaces:
+    - Type: 2
+      Options:
+      - pig
+      - bald eagle
+      - shark
+      PremadeSprites: []
+    - Type: 2
+      Options:
+      - pig
+      - bald eagle
+      - shark
+      PremadeSprites: []
+  - Text: 'So he knocked on the door and said:   Little -! Little -!   Let me in!
+      Let me in!'
+    Parts:
+    - 'So he knocked on the door and said:   Little -! Little -!   Let me in! Let
+      me in!'
+    BlankSpaces:
+    - Type: 2
+      Options:
+      - pig
+      - bald eagle
+      - shark
+      PremadeSprites: []
+    - Type: 2
+      Options:
+      - pig
+      - bald eagle
+      - shark
+      PremadeSprites: []
